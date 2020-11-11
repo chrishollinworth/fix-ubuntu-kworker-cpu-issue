@@ -3,7 +3,10 @@
 from https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1491467
 
 The bug can be identified by repeatedly running
+```
 cat /sys/firmware/acpi/interrupts/gpe13
+```
+
 where a rapidly increasing count will be seen.
 
 Workaround:
